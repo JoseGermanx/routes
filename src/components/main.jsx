@@ -8,7 +8,11 @@ function Main() {
       <h2>Enlaces</h2>
       <div>
         <Link to="/contact">Contacto</Link>
+        <br />
         <Link to="/gallery">Gallery</Link>
+        <br />
+        <Link to="/products">Productos</Link>
+
       </div>
     </div>
   );
