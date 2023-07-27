@@ -8,7 +8,7 @@ const Button = () => {
   const handleClick = (e) => {
     e.preventDefault();
     setContador(contador + 1);
-    setTexto("Nurevo valor");
+    setTexto("Nuevo valor");
     console.log(texto);
   };
 
