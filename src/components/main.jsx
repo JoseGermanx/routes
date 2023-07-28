@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import Users from "./Users";
 import FetchUsers from "./FetchUsers";
+import UsersList from "./UsersList";
 
 function Main() {
   return (
     <div className="container">
-      <FetchUsers />
+      <UsersList />
+      
+      {/* <FetchUsers /> */}
       
       {/* <h1>Pagina de inicio</h1>
       <h2>Enlaces</h2> */}
