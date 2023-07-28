@@ -13,7 +13,9 @@ const [usersList, setUserslist] = useState([]);
   return (
     <div>
         <ul>
-            {/* Acá debemos recorrer el arreglo que se almacenó en usersList */}
+            {/* Acá debemos recorrer el arreglo que se almacenó en usersList 
+            Tip: Método map de arrays
+            */}
 
 
         </ul>
