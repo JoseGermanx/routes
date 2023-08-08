@@ -1,8 +1,12 @@
 import React from 'react'
+import HeaderDinamico from './HeaderDinamico'
 
 const Contact = () => {
   return (
-    <div>contact</div>
+    <div>
+      <HeaderDinamico />
+      
+      contact</div>
   )
 }
 
